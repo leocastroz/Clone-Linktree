@@ -1,7 +1,9 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<p>Criado uma apresentação com minhas redes sociais e links clicáveis 
+que são direcionados para as citadas redes sociais.</p>
 
-## Recommended IDE Setup
+### Segue o exemplo 👇
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+![Capturar](https://user-images.githubusercontent.com/72839343/181426642-0fde9f4e-e2f7-4964-9488-ddbb59bf1128.PNG)
+
