@@ -17,7 +17,7 @@ defineProps({
   <a href="linkedin.com/in/leoscastro">Linkedin</a>
   <a href="https://www.instagram.com/leocastro_x/">Instagram</a>
   <a href="https://www.facebook.com/LeonardoCastro.Leoneell/">Facebook</a>
-  <a href="https://api.whatsapp.com/send?phone=+5594991511806text=Olá%Leonardo!">WhatsApp</a>
+  <a href="https://api.whatsapp.com/send?phone=+5594992195331text=Olá%Leonardo!">WhatsApp</a>
 </header>
 
  
