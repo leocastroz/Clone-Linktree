@@ -42,6 +42,7 @@ div{
     background-color: none;
 }
 img{
+    height: 200px;
     border-radius: 100%;
     width: 200px;
 }

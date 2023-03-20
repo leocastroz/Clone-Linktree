@@ -95,6 +95,8 @@ header img{
 }
 
 .letImage{
+  height: 200px;
+  width: 200px;
   margin: 30px auto 0 auto;
 }
 
