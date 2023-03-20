@@ -1,9 +1,7 @@
 <script>
 export default {
     setup () {
-        return {
-          name: 'leonardo',
-        }
+        return {}
     },
   methods: {
     playSound() {
