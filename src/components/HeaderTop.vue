@@ -1,8 +1,10 @@
 <script>
+import LetImagem from './LetImagem.vue'
 export default {
-    setup () {
-        return {}
-    },
+  components: {
+    LetImagem
+  },
+  setup () { return {} },
   methods: {
     playSound() {
       this.$refs.sound.play();
@@ -13,7 +15,9 @@ export default {
 <template>
 
 <header>
- <img src="https://avatars.githubusercontent.com/u/72839343?v=4" alt="profile github">
+  <div class="letImage">
+    <LetImagem />
+  </div>
   <p>Leonardo Castro <span>" Frontend Developer "</span></p>
 
   <div class="events" id="touch_mouse">
@@ -28,11 +32,11 @@ export default {
     </audio>
   </div> 
 
-  <a href="https://github.com/leocastroz">Github</a>
-  <a href="linkedin.com/in/leoscastro">Linkedin</a>
-  <a href="https://www.instagram.com/leocastro_x/">Instagram</a>
-  <a href="https://www.facebook.com/LeonardoCastro.Leoneell/">Facebook</a>
-  <a href="https://api.whatsapp.com/send?phone=+5594992195331text=Olá%Leonardo!">WhatsApp</a>
+  <a href="https://github.com/leocastroz" target="_blank">Github</a>
+  <a href="https://www.linkedin.com/in/leoscastro/" target="_blank">Linkedin</a>
+  <a href="https://www.instagram.com/leocastro_x/" target="_blank">Instagram</a>
+  <a href="https://www.facebook.com/LeonardoCastro.Leoneell/" target="_blank">Facebook</a>
+  <a href="https://api.whatsapp.com/send?phone=+5594992195331text=Olá%Leonardo!" target="_blank">WhatsApp</a>
 </header>
 
  
@@ -88,6 +92,10 @@ header img{
   margin: 30px auto 0 auto;
   border-radius: 100%;
   width: 200px;
+}
+
+.letImage{
+  margin: 30px auto 0 auto;
 }
 
 header p{
