@@ -24,7 +24,7 @@ export default {
     </div>
     <span @click="playSound" id="sound" class="material-symbols-outlined">volume_up</span>
     <audio ref="sound">
-      <source src="../assets/Leonardo Castro.m4a" type="audio/mp4">
+      <source src="../assets/Leonardo-Castro.mp3" type="audio/mp3">
     </audio>
   </div> 
 
