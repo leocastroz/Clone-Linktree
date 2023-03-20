@@ -19,7 +19,6 @@ export default {
     <LetImagem />
   </div>
   <p>Leonardo Castro <span>" Frontend Developer "</span></p>
-
   <div class="events" id="touch_mouse">
     <div id="show" class="alert" name="alert">
       <p>
@@ -38,16 +37,9 @@ export default {
   <a href="https://www.facebook.com/LeonardoCastro.Leoneell/" target="_blank">Facebook</a>
   <a href="https://api.whatsapp.com/send?phone=+5594992195331text=Olá%Leonardo!" target="_blank">WhatsApp</a>
 </header>
-
- 
 </template>
 
 <style scoped>
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
 #show {
   display: none;
 }
@@ -57,13 +49,13 @@ export default {
 }
 
 .alert {
-  margin-left: -50px;
-  margin-top: 20px;
   background-color: #2e2e2e;
   position: absolute;
-  width: 150px;
-  padding: 5px;
   border-radius: 5px;
+  margin-left: -50px;
+  margin-top: 20px;
+  padding: 5px;
+  width: 150px;
 }
 
 .alert p{
@@ -78,7 +70,7 @@ export default {
 }
 
 header{
-  background-image: url('https://cutewallpaper.org/27/black-out-background-wallpaper/1011426618.jpg');
+  background-image: url('../assets/background.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,13 +87,13 @@ header img{
 }
 
 .letImage{
+  margin: 30px auto 0 auto;
   height: 200px;
   width: 200px;
-  margin: 30px auto 0 auto;
 }
 
 header p{
-  Font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   font-weight: 600;
   font-size: 22px;
@@ -143,5 +135,4 @@ span{
   display: flex;
   height: 30px;
 }
-
 </style>
