@@ -1,13 +1,7 @@
 <script setup>
-// Este modelo inicial está usando Vue 3 <script setup> SFCs
-// Confira https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HeaderTop from './components/HeaderTop.vue'
+import MainLayout from './components/MainLayout.vue'
 </script>
 
 <template>
-  <HeaderTop/>
+  <MainLayout/>
 </template>
-
-<style scoped>
-
-</style>
