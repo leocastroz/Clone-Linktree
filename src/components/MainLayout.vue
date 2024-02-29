@@ -1,22 +1,30 @@
-<script>
-export default {
-  methods: {
-    playSound() {
-      this.$refs.sound.play();
-    }
-  }
-}
+<script setup>
+import IntialPage from '../pages/IntialPage.vue'
+import { onMounted, ref } from 'vue';
+
+const sound = ref(null);
+const playSound = () => {
+  sound.value.play();
+};
+
+onMounted(() => {
+ console.log('leonardo castro')
+});
 </script>
 <template>
 
-<header>
+
+
+<IntialPage />
+
+<header v-if="false">
   <div class="letImage">
     <img src="https://avatars.githubusercontent.com/u/72839343?v=4" alt="profile-github">
   </div>
   <p>Leonardo S. Castro</p>
   <span>22y | Frontend Developer</span>
-  <div class="events" id="touch_mouse">
-    <span @click="playSound" id="sound" class="material-symbols-outlined">volume_up</span>
+  <div @click="playSound" class="events" id="touch_mouse">
+    <span id="sound" class="material-symbols-outlined">volume_up</span>
     <audio ref="sound">
       <source src="../assets/Leonardo-Castro.mp3" type="audio/mp3">
     </audio>
