@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { onMounted } from 'vue';
 
 onMounted(() => {
@@ -18,4 +18,4 @@ onMounted(() => {
       <p class="font-normal text-[12px] text-slate-500 mt-10 animate__animated animate__zoomIn animate__delay-4s">developed by Leonardo - in 2024 ☕️</p>
     </div>
   </div>
-</template>
+</template> -->

@@ -1,5 +1,5 @@
 <script setup>
-import IntialPage from '../pages/IntialPage.vue'
+// import IntialPage from '../pages/IntialPage.vue';
 import { onMounted, ref } from 'vue';
 
 const sound = ref(null);
@@ -13,9 +13,9 @@ onMounted(() => {
 </script>
 <template>
 
-
-
 <IntialPage />
+
+
 
 <header v-if="false">
   <div class="letImage">
