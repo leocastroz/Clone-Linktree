@@ -11,3 +11,27 @@
   user-select: none;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  background-color: #18122e;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #676767 ; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1e1e1e;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

@@ -8,17 +8,20 @@ const goToPage = (event) => {
   if (lang === 'Portuguese') {
     router.push('/pt');
   }
-  // Adicione mais condições para outros idiomas, se necessário
 }
 </script>
 
 <template>
-  <div class="bg-gradient-to-r from-[#193558] via-[#1B1445] to-[#481A54] w-full h-16 flex items-center animate__animated animate__fadeInDown">
-    <div class="w-full mx-auto px-10 flex justify-between text-white">
-      <p>Español</p>
-      <select class="text-black cursor-pointer" @change="goToPage">
-        <option disabled value="">Please select language</option>
-        <option value="English">Inglés</option>
+  <div class="bg-[#18122e] w-full h-16 flex px-10 items-center justify-between animate__animated animate__fadeInDown">
+    <div class="text-white">
+      <p>Hola, bienvenido</p>
+    </div>
+    <div class="flex items-center">
+      <span class="text-violet-400 pr-3 text-xl">&#9873;</span>
+      <select class="text-white cursor-pointer bg-transparent w-32 text-xs gap-4 bg-violet-600 p-2 rounded outline-none" @change="goToPage">
+        <option disabled class="text-slate-400">Elige un idioma</option>
+        <option value="English" selected="selected">Inglés
+        </option>
         <option value="Portuguese">Portugués</option>
         <option value="Espanish" selected="selected">Español</option>
       </select>

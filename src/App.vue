@@ -1,5 +1,5 @@
 <script setup>
-import MainLayout from './components/MainLayout.vue'
+import CustomCursor from './components/CustomCursor.vue'
 </script>
 
 <template>
@@ -8,4 +8,5 @@ import MainLayout from './components/MainLayout.vue'
       <router-link to="/about">About</router-link> -->
   </div>
   <router-view />
+  <CustomCursor />
 </template>
