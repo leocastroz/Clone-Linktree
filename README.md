@@ -1,7 +1,7 @@
 # Vue 3 + Vite
 
 <p>Criado uma apresentação com minhas redes sociais e links clicáveis 
-que são direcionados para as citadas redes sociais.</p>
+que são direcionados para as citadas redes sociais</p>
 
 SITE: https://clone-linktree-nu.vercel.app/
 
