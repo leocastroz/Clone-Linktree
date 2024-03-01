@@ -12,9 +12,14 @@ const goToPage = (event) => {
 </script>
 
 <template>
-  <div class="bg-[#18122e] w-full h-16 flex px-10 items-center justify-between animate__animated animate__fadeInDown">
+  <div class="bg-[#18122e] w-full h-32 flex px-10 items-center justify-between animate__animated animate__fadeInDown">
     <div class="text-white">
-      <p>Hi, Welcome</p>
+      <p class="font-extrabold text-[18px] text-purple-500 bg-gradient-to-br from-purple-500 to-indigo-600 animate__animated animate__fadeInDown" style="-webkit-background-clip: text; -webkit-text-fill-color: transparent;">Hi, Welcome</p>
+      <div class="flex pt-5 w-24 justify-between">
+        <a href="https://github.com/leocastroz" target="_blank"><img src="../assets/github.svg" alt="github" class="transition duration-500 hover:scale-125 cursor-pointer animate__animated animate__fadeIn animate__delay-1s" width="20"></a>
+        <a href="https://www.linkedin.com/in/leoscastro/" target="_blank"><img src="../assets/linkedin.svg" alt="github" class="transition duration-500 hover:scale-125 cursor-pointer animate__animated animate__fadeIn animate__delay-2s" width="20"></a>
+        <a href="https://www.facebook.com/leocastroz/" target="_blank"><img src="../assets/facebook.svg" alt="github" class="transition duration-500 hover:scale-125 cursor-pointer animate__animated animate__fadeIn animate__delay-3s" width="20"></a>
+      </div>
     </div>
     <div class="flex items-center">
       <span class="text-violet-400 pr-3 text-xl">&#9873;</span>

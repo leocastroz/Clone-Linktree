@@ -4,19 +4,19 @@
       <div class="w-full h-auto rounded border-[#8787876e] duration-400 bg-gradient-to-r animate__animated animate__fadeIn animate__delay-1s">
         <div class="flex items-center">
           <div class="w-1 h-8 bg-violet-600 mr-2 rounded"></div>
-          <p class="text-sm uppercase">sobre mim</p>
+          <p class="text-sm uppercase">acerca de mí</p>
         </div>
-        <p class="my-5 text-justify text-slate-500">Engenheiro de Software Front-end, com 22 anos, tenho 3 anos de mercado e experiências na área de tecnologia. Atualmente estou residindo no estado do Pará e prestando serviços de desenvolvimento totalmente remoto.</p>
+        <p class="my-5 text-justify text-slate-500">Ingeniero de Software Front-end, 22 años, tengo 3 años en el mercado y experiencia en el área de tecnología. Actualmente resido en el estado de Pará y brindo servicios de desarrollo totalmente remotos.</p>
       </div>
     </div>
     <div class="px-10 pt-10">
       <div class="w-full h-auto rounded  border-[#8787876e] duration-400 bg-gradient-to-r animate__animated animate__fadeIn animate__delay-2s">
         <div class="flex items-center">
           <div class="w-1 h-8 bg-violet-600 mr-2 rounded"></div>
-          <p class="text-sm uppercase">maestrias</p>
+          <p class="text-sm uppercase">maestrías</p>
         </div>
-        <p class="my-5 text-justify text-slate-500">Ferramenteas para desenvolvimento: <span class="text-violet-400 text-md">Vue.js</span> - <span class="text-violet-400">Quasar.js</span> - <span class="text-violet-400">Nuxt.js</span> - <span class="text-violet-400">Ionic</span> - <span class="text-violet-400">Node.js</span> - <span class="text-violet-400">Laravel Blade</span> - <span class="text-violet-400">Supabase</span> - <span class="text-violet-400">Docker</span> - <span class="text-violet-400">Javascript</span> - <span class="text-violet-400">TailwindCss</span> - <span class="text-violet-400">BootstrapVue</span>.</p>
-        <p class="my-5 text-justify text-slate-500">Sistemas e ferramentas extras: <span class="text-orange-400 text-md">Windows</span> - <span class="text-orange-400">Ubuntu</span> - <span class="text-orange-400">MacOs</span> - <span class="text-orange-400">VsCode</span> - <span class="text-orange-400">Git</span> - <span class="text-orange-400">Figma</span> - <span class="text-orange-400">Trello</span> - <span class="text-orange-400">Jira</span> - <span class="text-orange-400">Slack</span> - <span class="text-orange-400">GitHub Projects</span>.</p>
+        <p class="my-5 text-justify text-slate-500">Herramientas para el desarrollo: <span class="text-violet-400 text-md">Vue.js</span> - <span class="text-violet-400">Quasar.js</span> - <span class="text-violet-400">Nuxt.js</span> - <span class="text-violet-400">Ionic</span> - <span class="text-violet-400">Node.js</span> - <span class="text-violet-400">Laravel Blade</span> - <span class="text-violet-400">Supabase</span> - <span class="text-violet-400">Docker</span> - <span class="text-violet-400">Javascript</span> - <span class="text-violet-400">TailwindCss</span> - <span class="text-violet-400">BootstrapVue</span>.</p>
+        <p class="my-5 text-justify text-slate-500">Sistemas y herramientas adicionales: <span class="text-orange-400 text-md">Windows</span> - <span class="text-orange-400">Ubuntu</span> - <span class="text-orange-400">MacOs</span> - <span class="text-orange-400">VsCode</span> - <span class="text-orange-400">Git</span> - <span class="text-orange-400">Figma</span> - <span class="text-orange-400">Trello</span> - <span class="text-orange-400">Jira</span> - <span class="text-orange-400">Slack</span> - <span class="text-orange-400">GitHub Projects</span>.</p>
       </div>
     </div>
     <div class="px-10 pt-10">
@@ -25,7 +25,7 @@
           <div class="w-1 h-8 bg-violet-600 mr-2 rounded"></div>
           <p class="text-sm uppercase">habilidades</p>
         </div>
-        <p class="my-5 text-justify text-slate-500">Trabalho seguindo medidas de controle em tarefas com entregas dentro da semana  <span class="text-slate-600 underline">(sprint)</span>, utilizando planejamento de tarefas por peso de pontos, documentação e escala, padrões <span class="text-violet-400">"MVC"</span> e <span class="text-violet-400">"TDD"</span> junto do código limpo <span class="text-violet-400">"CC"</span>. Além de contribuir com revisões de código, programação em pares <span class="text-slate-600 underline">(pair programming)</span>.</p>
+        <p class="my-5 text-justify text-slate-500">Trabajar siguiendo las medidas de control en las tareas con entregas en el plazo de una semana  <span class="text-slate-600 underline">(sprint)</span>, Uso de la planificación de tareas por peso puntual, documentación y escala, estándares <span class="text-violet-400">"MVC"</span> y <span class="text-violet-400">"TDD"</span> junto al código limpio <span class="text-violet-400">"CC"</span>. Además de contribuir a las revisiones de código, la programación en pareja <span class="text-slate-600 underline">(pair programming)</span>.</p>
       </div>
     </div>
     <br>
