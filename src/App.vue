@@ -1,7 +1,12 @@
 <script setup>
-import MainLayout from './components/MainLayout.vue'
+import CustomCursor from './components/CustomCursor.vue'
 </script>
 
 <template>
-  <MainLayout/>
+  <div id="nav">
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> -->
+  </div>
+  <router-view />
+  <CustomCursor />
 </template>
