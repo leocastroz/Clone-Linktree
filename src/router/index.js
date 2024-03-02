@@ -3,6 +3,8 @@ import Home from "../views/Home.vue";
 import English from "../views/English.vue";
 import Portuguese from "../views/Portuguese.vue";
 import Espanish from "../views/Espanish.vue";
+import ChildComponent from "../components/ChildComponent.vue";
+import SobrePtComponent from "../components/SobrePtComponent.vue";
 
 const routes = [
   {
@@ -19,6 +21,18 @@ const routes = [
     path: "/pt",
     name: "pt",
     component: Portuguese,
+    children: [
+      {
+        path: "/pt/sobre",
+        name: "pt",
+        component: SobrePtComponent,
+      },
+      {
+        path: "/pt/blog",
+        name: "blog",
+        component: ChildComponent,
+      },
+    ],
   },
   {
     path: "/es",

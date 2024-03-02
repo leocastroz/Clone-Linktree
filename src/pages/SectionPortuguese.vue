@@ -1,6 +1,6 @@
 <template>
   <div class="text-white">
-    <div class="px-10 pt-20">
+    <div class="px-10">
       <div class="w-full h-auto rounded border-[#8787876e] duration-400 bg-gradient-to-r animate__animated animate__fadeIn animate__delay-1s">
         <div class="flex items-center">
           <div class="w-1 h-8 bg-violet-600 mr-2 rounded"></div>
